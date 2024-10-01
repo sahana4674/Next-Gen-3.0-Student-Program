@@ -1,3 +1,55 @@
 Unsolved Practical: Create an HTML document that includes a section with multiple card elements representing different articles. Use CSS to style these cards as follows:
 •	Apply padding, margin, border, and border-radius to all card elements.
 •	Ensure that the card elements have a fixed width of 300 pixels and are horizontally centered within the viewport.
+.<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Article Cards</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section class="card-container">
+    <article class="card">
+      <h2>Article 1</h2>
+      <p>freedom</p>
+      <button>read more</button>
+    </article>
+    <article class="card">
+      <h2>Article 2</h2>
+      <p>republic day</p>
+      <button> read more</button>
+    </article>
+    <article class="card">
+      <h2>Article 3</h2>
+      <p>gandhi jayanthi</p>
+      <button>read more</button>
+    </article>
+  </section>
+</body>
+</html>
+card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card {
+    width: 200px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #3327a665;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(22, 82, 142, 0.811);
+  }
+  
+  .card h2 {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 16px;
+    color: #b11818;
+  }
