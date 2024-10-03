@@ -4,3 +4,22 @@ Unsolved Practical:  Create a simple JavaScript program that simulates a basic p
 •	Log all the variables to the console.
 •	Display a summary of the information on the webpage using document.write.
 •	Include comments to explain each part of the code
+
+// Declare variables
+let name = "sahana achar"; 
+let age = 19; // number
+let favoriteColor = "Blue"; 
+let favoriteHobbies = ["Reading", "Hiking", "Coding"]; 
+
+// Log variables to console
+console.log("Name:", sahana);
+console.log("Age:", 19);
+console.log("Favorite Color:", blue);
+console.log("Favorite Hobbies:", listening song);
+
+// Display summary on webpage
+document.write("<h1>PERSONAL INFORMATION</h1>");
+document.write("<p>Name: " + sahana  + "</p>");
+document.write("<p>Age: " + 19 + "</p>");
+document.write("<p>Favorite Color: " + Blue + "</p>");
+document.write("<p>Favorite Hobbies: " + favoriteHobbies.join("listening songs ") + "</p>");
